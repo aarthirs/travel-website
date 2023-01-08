@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>about</title>
+        
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--header start-->
+
+           <section class="header">
+            <a href="home.php" class="logo"><i class="bi bi-airplane"></i>explore.</a>
+            <nav class="navbar">
+                <a href="home.php">home</a>
+                <a href="about.php">about</a>
+                <a href="package.php">package</a>
+                <a href="book.php">book</a>
+                <a href="login.php">login</a>
+                <a href="signup.php">signup</a>
+               
+            </nav>
+            <div id="menu-btn"> <i class="bi bi-text-indent-left"></i></div>
+           </section>
+
+
+           <div class="heading" style="background:url(header-bg-2.png) no-repeat">
+       <h1>packages</h1>
+
+</div> 
+
+
+<!-- packages section starts  -->
+
+<section class="packages">
+
+   <h1 class="heading-title">top destinations</h1>
+
+   <div class="box-container">
+
+   <div class="box">
+         <div class="image">
+            <img src="thailand.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>thailand</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="maldives.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>maldives</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+      
+      <div class="box">
+         <div class="image">
+            <img src="par.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>paris</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="dubai.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>dubai</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="turkey.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>turkey</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="africa.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>africa</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="andaman.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>andaman</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="taj mahal.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>agra</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="himachal.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>himachal</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="kerala.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>kerala</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="vietnam.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>vietanam</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="malaysia.jpeg" alt="">
+         </div>
+         <div class="content">
+            <h3>malaysia</h3>
+            <p>adventure & tour</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+   </div>
+
+   <div class="load-more"><span class="btn">load more</span></div>
+
+</section>
+
+<!-- packages section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="home.php"><i class="bi bi-caret-right-fill"></i> home</a>
+         <a href="about.php"> <i class="bi bi-caret-right-fill"></i> about</a>
+         <a href="package.php"><i class="bi bi-caret-right-fill"></i> package</a>
+         <a href="book.php"><i class="bi bi-caret-right-fill"></i> book</a>
+      </div>
+
+      <div class="box">
+         <h3>extra links</h3>
+         <a href="#"> <i class="bi bi-caret-right-fill"></i> ask questions</a>
+         <a href="#"> <i class="bi bi-caret-right-fill"></i>about us</a>
+         <a href="#"><i class="bi bi-caret-right-fill"></i> privacy policy</a>
+         <a href="#"><i class="bi bi-caret-right-fill"></i> terms of use</a>
+      </div>
+
+      <div class="box">
+         <h3>contact info</h3>
+         <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+         <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+         <a href="#"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <i class="bi bi-airplane"></i><span>explore.</span> | all rights reserved! </div>
+
+</section>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
